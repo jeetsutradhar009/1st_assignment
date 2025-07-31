@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hospital Admit Form</title>
+   <style>
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    td {
+        padding: 7px;
+        vertical-align: top;
+    }
+    button{background-color: rgb(24, 118, 241);}
+</style>
+</head>
+    <body >
+        <div class="form-container">
+   <h2 style="background-color: cyan;">Hospital Registration Form</h2>
+<form>
+    <fieldset>
+    <!-- <legend></legend> -->
+    <table>
+        <tr>
+            <td>First Name:</td>
+            <td><input type="text" placeholder="Enter your first name" required></td>
+            <td>Last Name:</td>
+            <td><input type="text" placeholder="Enter your last name" required></td>
+        </tr>
+        <tr>
+            <td>Given Name:</td>
+            <td><input type="text" placeholder="Enter the given name" required></td>
+            <td>Blood Group:</td>
+            <td>
+                <select required>
+                    <option>-- Select Blood Group --</option>
+                     <option value="A+">A+</option>
+            <option value="O+">O+</option>
+            <option value="B+">B+</option>
+            <option value="AB+">AB+</option>
+            <option value="A-">A-</option>
+            <option value="O-">O-</option>
+            <option value="B-">B-</option>
+            <option value="AB-">AB-</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Age:</td>
+            <td><input type="text" placeholder="Enter your age"required></td>
+            <td>Gender:</td>
+            <td>
+                <select required>
+                    <option>-- Select Your Gender --</option>
+                    <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Mobile No:</td>
+            <td><input type="text" placeholder="+91-xxxxxxxxxx" required></td>
+            <td>Email:</td>
+            <td><input type="email" placeholder="example@gmail.com" required></td>
+        </tr>
+        <tr>
+            <td>Address:</td>
+            <td><input type="text" placeholder="Enter your Address" required></td>
+            <td>State:</td>
+            <td>
+                <select required>
+                    <option>-- Select Your State --</option>
+                  <option value="Delhi ">Delhi</option>
+            <option value="Gujarat">Gujarat</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="Kerala">Kerala</option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Punjab">Punjab</option>
+            <option value="Rajasthan">Rajasthan</option>
+            <option value="Tamil Nadu">Tamil Nadu</option>
+            <option value="Uttar Pradesh">Uttar Pradesh</option>
+            <option value="West Bengal">West Bengal</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Admit Date:</td>
+            <td><input type="date" required></td>
+            <td>Department:</td>
+            <td>
+                <select required>
+                    <option>-- Select Department --</option>
+                  <option value="General Medicine">General Medicine</option>
+            <option value="Cardiology">Cardiology</option>
+            <option value="Neurology">Neurology</option>
+            <option value="Orthopedics">Orthopedics</option>
+            <option value="Pediatrics">Pediatrics</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Consulting Doctor:</td>
+            <td colspan="3"><input type="text" required></td>
+        </tr>
+        <tr>
+            <td colspan="4">
+                <input type="checkbox" required> I agree with Terms & Condition
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4">
+                <button type="reset">Reset</button>
+                <button type="submit">Submit</button>
+            </td>
+        </tr>
+    </table>
+    </fieldset>
+</form>
+
+</div>
+    </body>
+</html>
